@@ -12,7 +12,7 @@ public class Log4jController {
     private static final Logger logger = Logger.getLogger(Log4jController.class);
 
     private final LogService logService;
-
+    
     public Log4jController(LogService logService) {
         this.logService = logService;
     }
